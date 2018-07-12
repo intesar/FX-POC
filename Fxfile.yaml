@@ -94,15 +94,15 @@ jobs:
     # 0 15 10 ? * * -> Fire at 10:15am every day
     cron: '0 15 11 ? * *'
     issueTracker: 
-      name: Dev-IssueTracker
+      name: FX-POC/Dev-IssueTracker
       # e.g. https://github.com/shoukathmd/courseapo
       url: https://github.com/intesar/FX-POC
       account: Default_GitHub
     notifications: 
-      - name: Dev-Slack-Notification
+      - name: FX-POC/Dev-Slack-Notification
         channel: engineering
         account: Default_Slack
-      - name: Dev-Email-Notification
+      - name: FX-POC/Dev-Email-Notification
         # enter your email
         to: intesar@fxlabs.io
         account: Default_Email
